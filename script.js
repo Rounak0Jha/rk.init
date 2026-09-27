@@ -51,8 +51,8 @@
     const a=$('.line-a'),b=$('.line-b'),c=$('.line-c');
     [a,b,c].forEach(x=>x.classList.remove('show'));
     setTimeout(()=>a.classList.add('show'),250);
-    setTimeout(()=>{a.classList.remove('show');b.classList.add('show')},2600);
-    setTimeout(()=>{b.classList.remove('show');c.classList.add('show')},5600);
+    setTimeout(()=>{a.classList.remove('show');b.classList.add('show')},4500);
+    setTimeout(()=>{b.classList.remove('show');c.classList.add('show')},9000);
   }
   $('#storyNext').addEventListener('click',()=>showScene('blocks'));
   $('#blocksNext').addEventListener('click',()=>showScene('heartScene'));
